@@ -145,8 +145,8 @@ void Update(AlxWindow* w){
     }
     
     //Sprite_Render(WINDOW_STD_ARGS,&captured,0.0f,0.0f);
-    //BW_Render(WINDOW_STD_ARGS,ln_before,OUTPUT_WIDTH,OUTPUT_HEIGHT);
-    VField_Render(WINDOW_STD_ARGS,flow,OUTPUT_WIDTH,OUTPUT_HEIGHT);
+    BW_Render(WINDOW_STD_ARGS,ln_before,OUTPUT_WIDTH,OUTPUT_HEIGHT);
+    //VField_Render(WINDOW_STD_ARGS,flow,OUTPUT_WIDTH,OUTPUT_HEIGHT);
     RenderRect(rect.p.x,rect.p.y,rect.d.x,rect.d.y,RED);
 }
 void Delete(AlxWindow* w){
